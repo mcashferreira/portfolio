@@ -1,0 +1,45 @@
+ * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            border: 2px solid black;
+            margin: 1%;
+            height: 50px;
+        }
+
+       .name {
+        border: 2px solid black;
+        width: 150px;
+        padding: 7.5px 0px 0px 0px;
+       }
+
+       .nav-container {
+        border: 2px solid black;
+        width: 185px;
+        margin-left: 76%;
+        justify-content: center;
+        padding: 7.5px 0px 0px 0px;
+       }
+
+       .nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 10px;
+        }
+
+
+       .mainStyle {
+            border: 2px solid black;
+            margin: 1%;
+            height: 1900px;
+            width: 1322.5px;
+            
+        }
+      
+        footer > span {
+           margin: 50px 500px;
+            padding: 10px 10px;
+        }
