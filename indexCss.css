@@ -79,7 +79,7 @@
         }
 
         .aboutSection > div + div {
-            background-image: url('images/marqueise_ferreira_picture.png'); /* Corrected file path */
+            background-image: url('images/Marqueise_Ferreira_Picture.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             border-radius: 30px;
             background-position: center top -120px;
