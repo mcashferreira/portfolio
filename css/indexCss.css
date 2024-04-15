@@ -79,7 +79,7 @@
         }
 
         .aboutSection > div + div {
-            background-image: url('images/imageOne.jpg'); /* Corrected file path */
+            background-image: url('../images/imageOne.jpg'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             border-radius: 30px;
             background-position: center top -120px;
@@ -200,7 +200,7 @@
         }
 
         .aboutSection.myJourneySection > .myJourney {
-            background-image: url('images/certificationsBackground.png'); /* Corrected file path */
+            background-image: url('../images/certificationsBackground.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             background-size: 15% auto; /* Set the background image size to 50% of its original width and auto height */
             background-repeat: no-repeat;
@@ -266,7 +266,7 @@
         }
 
         .fandc {
-            background-image: url('images/websites/fandc.png'); /* Corrected file path */
+            background-image: url('../images/websites/fandc.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             border-radius: 30px;
             background-size: 300px 300px; /* Set the background image size to 50% of its original width and auto height */
@@ -275,7 +275,7 @@
         }
 
         .dreamsite {
-            background-image: url('images/websites/dreamsite.png'); /* Corrected file path */
+            background-image: url('../images/websites/dreamsite.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             border-radius: 30px;
             background-size: 350px 300px; /* Set the background image size to 50% of its original width and auto height */
@@ -284,7 +284,7 @@
         }
 
         .digistrats {
-            background-image: url('images/websites/digistrats.png'); /* Corrected file path */
+            background-image: url('../images/websites/digistrats.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             border-radius: 30px;
             background-size: 300px 300px; /* Set the background image size to 50% of its original width and auto height */
@@ -298,7 +298,7 @@
         }
 
         .contactMeInfo {
-            background-image: url('images/websites/contactMe.jpg');
+            background-image: url('../images/websites/contactMe.jpg');
             
             background-repeat: no-repeat;
         }
