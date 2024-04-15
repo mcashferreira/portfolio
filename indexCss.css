@@ -31,6 +31,12 @@
         column-gap: 10px;
         }
 
+            nav > a {
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+            }
+
        .mainStyle {
             border: 2px solid black;
             margin: 1%;
