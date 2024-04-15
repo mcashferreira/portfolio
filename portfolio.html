@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marqueise's Portfolio</title>
+    <link rel="stylesheet" href="css/default.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            border: 2px solid black;
+            margin: 1%;
+            height: 50px;
+        }
+
+       .name {
+        border: 2px solid black;
+        width: 150px;
+        padding: 7.5px 0px 0px 0px;
+       }
+
+       .nav-container {
+        border: 2px solid black;
+        width: 185px;
+        margin-left: 76%;
+        justify-content: center;
+        padding: 7.5px 0px 0px 0px;
+       }
+
+       .nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 10px;
+        }
+
+
+       .mainStyle {
+            border: 2px solid black;
+            margin: 1%;
+            height: 1900px;
+            width: 1322.5px;
+            
+        }
+
+        .projectOneSection {
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 1200px;
+            height: 500px;
+            margin: 60px;
+            
+
+        }
+
+        .projectTwoSection {
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 1200px;
+            height: 500px;
+            margin: 60px;
+            
+
+        }
+
+        .projectThreeSection {
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 1200px;
+            height: 500px;
+            margin: 60px;
+            
+
+        }
+
+
+        .introSectionOne {
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 1200px;
+            height: 125px;
+            margin: 60px;
+            
+
+        }
+
+        .introSectionOne > h1 {
+            transform: translateY(50px);
+
+        }
+
+        .projectOneSection > div {
+            border: 2px solid black;
+            height: 400px;
+            width: 400px;
+            margin: 50px 0px 0px 0px;
+
+        }
+
+        .projectTwoSection > div {
+            border: 2px solid black;
+            height: 400px;
+            width: 400px;
+            margin: 50px 0px 0px 0px;
+
+        }
+
+        .projectThreeSection > div {
+            border: 2px solid black;
+            height: 400px;
+            width: 400px;
+            margin: 50px 0px 0px 0px;
+
+        }
+
+   
+
+ 
+
+
+
+
+
+        
+
+
+
+            EMPTY {
+            line-height: 1.5em;
+        }
+
+
+
+
+
+
+
+
+        h1 {
+            font-weight: bold;
+        }
+
+        .projectOneSection > div {        
+            border-radius: 30px;
+        }
+
+        .projectTwoSection > div {        
+            border-radius: 30px;
+        }
+
+        .projectThreeSection > div {        
+            border-radius: 30px;
+        }
+
+        .websiteDivOne {
+            border-radius: 30px;
+            width: 500px !important;
+            transform: translateX(-40px);
+        }
+
+        .websiteDivTwo {
+            border-radius: 30px;
+            width: 500px !important;
+            transform: translateX(-40px);
+        }
+
+        .websiteDivThree {
+            border-radius: 30px;
+            width: 500px !important;
+            transform: translateX(-40px);
+        }
+
+        .projectOneSection > div:nth-child(1) {
+            margin-right: 5%;
+        }
+
+        .projectTwoSection > div:nth-child(1) {
+            margin-right: 5%;
+        }
+
+        .projectThreeSection > div:nth-child(1) {
+            margin-right: 5%;
+        }
+
+        .projectOneSection > .websiteDivOne {
+            background-image: url('images/websites/fandc.png'); /* Corrected file path */
+            background-size: cover; /* Ensures the image covers the entire container */
+             /* Set the background image size to 50% of its original width and auto height */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .projectTwoSection > .websiteDivTwo {
+            background-image: url('images/websites/dreamsite.png'); /* Corrected file path */
+            background-size: cover; /* Ensures the image covers the entire container */
+            background-size: 120% 120%; /* Set the background image size to 50% of its original width and auto height */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .projectThreeSection > .websiteDivThree {
+            background-image: url('images/websites/digistrats.png'); /* Corrected file path */
+            background-size: cover; /* Ensures the image covers the entire container */
+            background-size: 105% 109.5%; /* Set the background image size to 50% of its original width and auto height */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+        .summaryOne, .summaryTwo, .summaryThree {
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 40px 40px 40px;
+        }
+
+        .summaryOne, .summaryTwo, .summaryThree > p {
+            line-height: 1.5em;
+        }
+
+      
+        footer > span {
+            margin: 50px 500px;
+            padding: 10px 10px;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">    
+        <section class="name">
+            <span>Marqueise Ferreira</span>
+        </section>
+
+        <section class="nav-container">
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="mainStyle">
+
+
+
+        <section class="introSectionOne">
+            <h1>Client Portfolio</h1>
+        </section>
+
+
+
+
+
+   
+        <section class="projectOneSection">
+            <div class="websiteDivOne">
+                <div id="websiteImageOne">
+                  
+                </div>
+            </div>
+            <div class="explanationOne">
+                <div class="summaryOne">
+                    <h2>The Clothing Minimalist</h2><br>
+                    <p>Shop here for all your fashion and clothing needs. While
+                        most fashion outlets can become overwhelming, making
+                        it hard to choose a style, we dedicated our time to 
+                        curating only the best of fabrics and uniques styles
+                        that look pleasing to the eye without all the gaudy details.
+                    </p>
+               
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <section class="projectTwoSection">
+            <div class="websiteDivTwo">
+                <div id="websiteImageOne">
+                  
+                </div>
+            </div>
+            <div class="explanationTwo">
+                <div class="summaryTwo">
+                    <h2>Dream Site</h2><br>
+                    <p>Explore a catalog of engaging website designs 
+                        created by your own AI assistant, using prompts
+                        that you give it. Whether you need a one page website,
+                        or a website with multiple pages, our AI will created
+                        your dream website.
+                    </p>
+               
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="projectThreeSection">
+            <div class="websiteDivThree">
+                <div id="websiteImageOne">
+                  
+                </div>
+            </div>
+            <div class="explanationThree">
+                <div class="summaryThree">
+                    <h2>Digistrats</h2><br>
+                    <p>A revolutionary website that really adds the <em>digital</em> 
+                        to "Digital Marketing". This one of a kind platform takes
+                        data that is given to it by a user, and creates a tailored digital
+                        marketing strategy that can be implemented with ease.
+                    </p>
+               
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer><span>© 2024 Marqueise Ferreira. All rights reserved.</span></footer>
+</body>
+</html>
