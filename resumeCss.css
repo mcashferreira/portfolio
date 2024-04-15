@@ -31,10 +31,9 @@
         column-gap: 10px;
         }
 
-       a {
+        a {
         text-decoration: none;
-        color: black;
-        font-weight: bold;
+        color: red;
             }
 
 
