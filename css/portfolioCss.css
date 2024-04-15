@@ -187,7 +187,7 @@
         }
 
         .projectOneSection > .websiteDivOne {
-            background-image: url('images/websites/fandc.png'); /* Corrected file path */
+            background-image: url('../images/websites/fandc.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
              /* Set the background image size to 50% of its original width and auto height */
             background-repeat: no-repeat;
@@ -195,7 +195,7 @@
         }
 
         .projectTwoSection > .websiteDivTwo {
-            background-image: url('images/websites/dreamsite.png'); /* Corrected file path */
+            background-image: url('../images/websites/dreamsite.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             background-size: 120% 120%; /* Set the background image size to 50% of its original width and auto height */
             background-repeat: no-repeat;
@@ -203,7 +203,7 @@
         }
 
         .projectThreeSection > .websiteDivThree {
-            background-image: url('images/websites/digistrats.png'); /* Corrected file path */
+            background-image: url('../images/websites/digistrats.png'); /* Corrected file path */
             background-size: cover; /* Ensures the image covers the entire container */
             background-size: 105% 109.5%; /* Set the background image size to 50% of its original width and auto height */
             background-repeat: no-repeat;
